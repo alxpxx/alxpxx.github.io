@@ -1,0 +1,111 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #CCCCCC;
+  font-family: "Lucida Console", Monaco, monospace;
+  background: url("bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+    font-size: 25px;
+}
+.navbar-nav:hover {
+    color: #DA7B93
+}
+.navbar-brand {
+    font-size: 25px;
+}
+.btn-floating {
+    font-size: 25px;
+}
+.btn-floating:hover {
+    color: #DA7B93
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+/* Cards */
+.card-title {
+    font-size: 40px;
+  
+}
+/* Carousel */
+.carousel-item {
+    font-size: 25px;
+}
+h5 {
+    font-size: 35px;
+}
+h5.card-title {
+    color: #CCCCCC;
+    background-color: transparent
+}
+/* Blog */
+.btn {
+    border-color: #DA7B93;
+    background-color:transparent;
+}
+
+.btn:hover {
+    background-color: #DA7B93;
+    border-color: #DA7B93;
+    color: black;
+}
+.card-body, .card-header, .card-title, .card-footer, .card-text {
+    background-color: #5D5C61;
+}
+.page-link {
+    background-color: #5D5C61;
+
+}
+a {
+    color: #DA7B93;
+}
+a:hover {
+    color: #CB2D6F;
+}
+p.quote {
+    color: #14A098;
+}
+p.author, p.date {
+    color: gray
+}
+.blockquote-footer {
+    color: #14A098
+}
+.comment-card-body {
+    background-color: transparent;
+    color: gray
+}
+h4.comment-card-header {
+    background-color: transparent;
+    color: #DA7B93
+}
+i.fas {
+    color: #14A098;
+
+}
+.comment {
+    border: 1px;
+    padding-top: 1em;
+    color: gray
+}
+.nested-comment {
+    border: 2px;
+    padding-left: 2em;
+    color: gray
+}
+.contact-form{
+			background:rgba(0,0,0, .6);
+			color:white;
+			margin-top: 100px;
+			padding: 20px;
+			box-shadow: 0px 0px 10px 3px grey;
+		}
