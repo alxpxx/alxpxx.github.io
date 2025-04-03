@@ -7,12 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- Content Security Policy -->
-    <meta http-equiv="Content-Security-Policy-Read-Only" 
-          content="default-src 'self' 
-          fontawesome.com 
-          bootstrapcdn.com 
-          code.jquery.com 
-          cdnjs.cloudflare.com;">      
+    <meta http-equiv="Content-Security-Policy" 
+      content="default-src 'self'; 
+               script-src 'self' https://code.jquery.com https://cdnjs.cloudflare.com; 
+               style-src 'self' https://stackpath.bootstrapcdn.com https://cdnjs.cloudflare.com; 
+               font-src 'self' https://cdnjs.cloudflare.com https://fontawesome.com;">      
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
